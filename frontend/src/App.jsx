@@ -22,7 +22,7 @@ const DAYS = [
 ]
 
 // Backend API URL (defaults to local Flask backend)
-const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:5000'
+const API_URL = 'https://messfoodwasteanalytics.onrender.com'
 
 // Shows "—" for old records that don't have the new fields
 const fmt = (n) =>
